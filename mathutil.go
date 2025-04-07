@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func add(a, b int) int {
+func Add(a, b int) int {
 	c := a + b
 	fmt.Println("这是两数相加")
 	return c
